@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/styles/globalStyles.css" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="../../styles/button.css">
+  <title>Open Music</title>
+</head>
+
+<body >
+
+  <header class="container">
+    <menu class="menu">
+      <h1>open music</h1>
+      <button class="btn-dark-mode"></button>
+    </menu>
+  </header>
+
+  <main class="container">
+
+    <section class="filter-gen">
+      <h2>Gênero Musical</h2>
+    </section>
+
+    <section class="filter-price">
+      <div class="filter-box-words">
+        <h2>Definir preço</h2>
+        <span id="filter-price-range">0</span>
+      </div>
+      <input type="range" name="price-range" min="0" max="100" value="0" id="p-range">
+    </section>
+
+    <section class="container section-content">
+      <h2>Album Encontrados</h2>
+      <ul class="list-album"></ul>
+    </section>
+  </main>
+  <script src="productsData.js"></script>
+  <script src="../../scripts/theme.js"></script>
+  <script src="../../scripts/filterCategory.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

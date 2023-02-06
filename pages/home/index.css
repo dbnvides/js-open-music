@@ -1,0 +1,157 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--font-2);
+    padding: 4rem 0;
+    color: var(--color-grey-1);
+}
+
+.filter-gen {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: var(--color-grey-title);
+}
+
+.filter-gen>h2 {
+    font-size: var(--font-2);
+}
+
+#p-range {
+    -webkit-appearance: none;
+    background: var(--color-grey-5);
+    height: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#p-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: var(--color-white-fixed);
+    border: 0.375rem solid #9747FF;
+    cursor: pointer;
+}
+
+.list-category {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.1rem;
+    margin-bottom: 3.75rem;
+}
+
+.list-category li {
+    max-width: 100%;
+}
+
+.filter-price {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4.25rem;
+}
+
+.filter-price input {
+    margin: 0;
+    background-color: #9747FF;
+}
+
+.filter-box-words {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.filter-box-words>h2 {
+    font-size: var(--font-2);
+    color: var(--color-grey-title);
+}
+
+.filter-box-words>span {
+    color: var(--color-grey-title);
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.section-content>h2 {
+    font-size: var(--font-2);
+    margin-bottom: 3.75rem;
+    color: var(--color-grey-title);
+}
+
+.list-album {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.563rem;
+    justify-content: space-between;
+}
+
+.list-card {
+    display: flex;
+    flex-direction: column;
+    width: 20.25rem;
+    height: 16.188rem;
+    background-color: var(--color-grey-card);
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.list-card-header {
+    max-width: 100%;
+    height: 7.063rem;
+    border-radius: 0.25rem 0.25rem 0rem 0rem;
+    overflow: hidden;
+}
+
+.list-card:hover {
+    background-color: var(--color-grey-6);
+}
+
+.list-card:hover img {
+    transform: scale(1.1);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem 1rem;
+    gap: 1.25rem;
+    color: var(--color-grey-title);
+}
+
+.band-album {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    font-size: var(--font-3);
+    font-weight: 500;
+}
+
+.name-music {
+    font-size: var(--font-2);
+    font-weight: 600;
+}
+
+.price-music {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: var(--font-2);
+    font-weight: 600;
+    margin-top: 0.469rem;
+}
+
+.empy-list {
+    font-size: var(--font-2);
+    color: var(--color-grey-title);
+}
+
